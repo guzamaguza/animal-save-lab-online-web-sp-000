@@ -9,13 +9,14 @@ html {
 }
 
 /* Write your solution here */
-@media only screen and (max-width: 1170px) {
+@media only screen and (max-width: 1170px) and (min-width: 406px) {
   #monkey {
-    top: 5px
+    right: 0px; 
+    top: 0px;
   }
 }
 
-@media only screen and (min-width: 406px) {
+@media only screen and  {
   #monkey {
     top: 5px
   }
